@@ -53,3 +53,7 @@ body {
     transform: translateY(-3px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.col-4 {
+    padding: 15px;
+    /* border-right: 1px solid #322929; */
+}

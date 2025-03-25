@@ -57,12 +57,12 @@ body {
     padding: 15px;
     /* border-right: 1px solid #322929; */
 }
-#hr {
+hr {
     border: 0;
     height: 8pt;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-#h2 {
+h2 {
     font-size: 18pt;
 }

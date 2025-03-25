@@ -59,7 +59,7 @@ body {
 }
 #hr {
     border: 0;
-    height: 2px;
+    height: 2pt;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }

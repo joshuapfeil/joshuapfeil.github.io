@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container spacing for main content */
+.container {
+    margin-top: 70px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40;
+    border-bottom: 3px solid #ffc107;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Grid Item Styling */
+.grid-item {
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom adjustments for grid (utilizing Bootstrap's grid system) */
+.row.custom-grid > [class*="col-"] {
+    padding: 15px;
+}
+
+/* Hover effect on grid items */
+.grid-item:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

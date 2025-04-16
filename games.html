@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,12 @@
 
     <title>Joshua Pfeil</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="./home.html">Joshua Pfeil</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -36,32 +39,113 @@
     </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
                 <h1>Joshua Pfeil</h1>
                 <h2>Here are my major game projects I've made</h2>
+                <br>
+                <hr>
+                <br>
                 <div class="row">
                     <div class="col-sm-4">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                        <h3>Individual Immersive Game Project (Dongk)</h3>
                         <hr>
-                        <p>Curabitur tortor. Aenean quam. Nulla metus metus, sodales ligula in libero. Sed dignissim lacinia nunc. Ullamcorper vel, tincidunt sed, euismod in, nibh. Pellentesque nibh.</p>
+                        <p>My largest scale game project I’ve made on my own.
+                            3D procedurally generated mirror maze where you have to bonk into walls to escape.
+                            I spent a lot of effort trying to find how to get the reflections right and I eventually
+                            discovered that ray tracing is perfect for this use case. I also use my original idea of a
+                            reflection probe that sticks to the wall you look at as a fallback.
+                            The graphical and computational complexity of this project made it really fun to make since
+                            I’ve never had a good chance to work on such advanced stuff before.
+                            This project took over a year to make with multiple classes dedicated to it.
+                            Due to the limited number of objects in the scene, I put a lot of effort into a high quality
+                            player character since you will see it throughout the game.
+                        </p>
+                        <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+                        <p>TODO: add video for project here</p>
+                        <!-- </div> -->
+                        <p>Here is a presentation covering it as well</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://drive.google.com/file/d/11N0jfFVnnd3ugIHPItcE20omUqvOxzcw/preview"
+                                width="640" height="480" allow="autoplay"></iframe>
+                        </div>
+                        <br>
+                        <p>Some of the Skills learned:
+                        <ul>
+                            <li>Ray tracing</li>
+                            <li>Unity 3D HDRP</li>
+                            <li>Blender 3D modeling and animation</li>
+                            <li>Reflection probes</li>
+                            <li>Screen space reflections</li>
+                            <li>VFX and Shader Graph</li>
+                            <li>Music and Sound design</li>
+                            <li>Smooth player movement</li>
+                            <li>FSR 2.1 upscaling</li>
+                            <li>Maze generation algorithm</li>
+                            <li>Maya and Blender</li>
+                        </ul>
+                        </p>
                     </div>
                     <div class="col-sm-4">
-                        <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
+                        <h3>My First Game (Surf or Turf?)</h3>
                         <hr>
-                        <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.</p>
+                        <p>While it's not my greatest game nor the funnest, I am still proud of the first game I
+                            made
+                            during my first year in GIMM.
+                            Through this game I learned how to work with Unity, specifically in 2D. I also learned a
+                            lot
+                            about art making some of the assets.
+                            The game originated from the adorable goat crab hybrid creature I made for another class
+                            and
+                            decided to reuse it since I was really proud of it.
+                            Since I wanted complex animation and interaction with the world, I had to split the
+                            character into separate game objects with their own colliders.
+                        </p>
+                        <p>Here is a video of the game</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/serTSzVG6CQ?si=QxCEoL_K8qB36Rok"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                        </div>
+                        <br>
+                        <p>Some of the Skills learned:
+                        <ul>
+                            <li>Unity 2D</li>
+                            <li>Photoshop</li>
+                            <li>C# scripting</li>
+                            <li>Polygon colliders</li>
+                            <li>Unity animation</li>
+                            <li>Unity physics</li>
+                            <li>Unity object detection</li>
+                            <li>Multi object player characters</li>
+                        </ul>
+                        </p>
                     </div>
                     <div class="col-sm-4">
-                        <p>Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p>Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos.</p>
                         <hr>
-                        <p>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <p>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat
+                            condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                            per
+                            inceptos himenaeos.</p>
                     </div>
                 </div>
                 <br>
             </div>
-            <div class="col-md-2"></div>
         </div>
+        <div class="col-md-1"></div>
     </div>
-
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-6">You can contact me at: <a
+                href="mailto:joshuapfeil@u.boisestate.edu">joshuapfeil@u.boisestate.edu</a></p>
+        <p class="col-md-6">My YouTube channel where I post videos of some of my projects <a
+                href="https://www.youtube.com/@jarjarpfeil">here</a></p>
+    </footer>
 </body>
+
 </html>

@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #d2c1c1;
     margin: 0;
     padding: 0;
 }
@@ -62,7 +62,7 @@ hr {
     border: 0;
     height: 1pt;
     background: #333;
-    background-image: linear-gradient(to right, #ffffff, #333, #ffffff);
+    background-image: linear-gradient(to right, #d2c1c1, #333, #d2c1c1);
 }
 h2 {
     font-size: 18pt;

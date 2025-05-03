@@ -1,14 +1,21 @@
-/* Global Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #d2c1c1;
-    margin: 0;
-    padding: 0;
 }
 
 /* Container spacing for main content */
 .container {
     margin-top: 70px;
+    flex: 1; /* Pushes the footer to the bottom */
+
 }
 
 /* Navbar Styling */
@@ -82,8 +89,6 @@ footer {
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
-    position: relative;
-    bottom: 0;
     width: 100%;
-    margin-top: 20px;
+    margin-top: auto;
 }

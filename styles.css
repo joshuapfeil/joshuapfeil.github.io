@@ -100,13 +100,37 @@ footer {
 }
 
 .art:hover {
-    -webkit-transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -ms-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
+
     transition: all .3s ease-in;
-    @media (min-width: 576px) {
+    @media ((min-width: 576px) and  (max-width: 768px)) {
+        transform: scale(2.5) translateX(-30%);
+    }
+    @media (min-width: 768px) {
         transform: scale(2) translateX(-20%);
     }
+
+}
+/* Art hover effect for different columns */
+.art2:hover {
+
+    transition: all .3s ease-in;
+    @media ((min-width: 576px) and  (max-width: 768px)) {
+        transform: scale(2.5);
+    }
+    @media (min-width: 768px) {
+        transform: scale(2);
+    }
+
+}
+
+.art3:hover {
+    transition: all .3s ease-in;
+    @media ((min-width: 576px) and  (max-width: 768px)) {
+        transform: scale(2.5) translateX(30%);
+    }
+    @media (min-width: 768px) {
+        transform: scale(2) translateX(20%);
+    }
+
 
 }

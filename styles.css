@@ -60,10 +60,6 @@ body {
     transform: translateY(-3px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.col-4 {
-    padding: 15px;
-    /* border-right: 1px solid #322929; */
-}
 
 hr {
     border: 0;
@@ -91,4 +87,9 @@ footer {
     text-align: center;
     width: 100%;
     margin-top: auto;
+}
+.col-sm-6:hover, .col-sm-4:hover {
+    color:#d2c1c1;
+    background-color: #8d4d4d;
+    /* font-weight: bold; */
 }

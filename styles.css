@@ -28,13 +28,13 @@ body {
 
 .navbar-brand,
 .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #251717;
     transition: color 0.3s ease;
 }
 
 .navbar-brand:hover,
 .navbar-nav .nav-link:hover {
-    color: #ffc107;
+    color: #907c3f;
 }
 
 .navbar-toggler {

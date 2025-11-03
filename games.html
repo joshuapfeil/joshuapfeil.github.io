@@ -17,9 +17,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">Joshua Pfeil</a>
+            <a class="navbar-brand" id="alpaca" href="./index.html"><img src="alpaca logo 2.0.png" class="img-fluid" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,134 +27,143 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href=".\index.html">Home<i class="fa-solid fa-house"></i></a>
+                        <a class="nav-link" href="./index.html"><i class="fa-solid fa-house"></i></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href=".\games.html">Games<i class="fa-solid fa-gamepad"></i><span
+                        <a class="nav-link " href="./games.html"><i class="fa-solid fa-gamepad"></i><span
                                 class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=".\art.html">Art<i class="fa-solid fa-palette"></i></a>
+                        <a class="nav-link" href="./art.html"><i class="fa-solid fa-palette"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./programming.html">Programming<i
-                                class="fa-solid fa-square-binary"></i></a>
+                        <a class="nav-link" href="./programming.html"><i class="fa-solid fa-square-binary"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="container">
+        <br><br>
+
         <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <h1>Joshua Pfeil</h1>
-                <h2>Here are my major game projects I've made</h2>
-                <br>
-                <hr>
-                <br>
+            <!-- <div class="col-md-1"></div> -->
+            <div class="col-md-12">
+                <div class="extra-margin">
+                    <h1>Joshua Pfeil</h1>
+                    <h2>Here are my major game projects I've made</h2>
+                    <hr>
+                </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <h3>Individual Immersive Game Project (Dongk)</h3>
-                        <hr>
-                        <p>My largest scale game project I’ve made on my own.
-                            3D procedurally generated mirror maze where you have to bonk into walls to escape.
-                            I spent a lot of effort trying to find how to get the reflections right and I eventually
-                            discovered that ray tracing is perfect for this use case. I also use my original idea of a
-                            reflection probe that sticks to the wall you look at as a fallback.
-                            The graphical and computational complexity of this project made it really fun to make since
-                            I’ve never had a good chance to work on such advanced stuff before.
-                            This project took over a year to make with multiple classes dedicated to it.
-                            Due to the limited number of objects in the scene, I put a lot of effort into a high quality
-                            player character since you will see it throughout the game.
-                        </p>
-                        <p>Here is a video of the game</p>
-                        <div class="ratio ratio-16x9">
-                            <iframe
-                                src="https://www.youtube.com/embed/YHBeeCsNs5I?si=OUe1QcwmMTVO0vA3"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="extra-margin">
+                            <h3>Individual Immersive Game Project (Dongk)</h3>
+                            <hr>
+                            <p>My largest scale game project I’ve made on my own.
+                                3D procedurally generated mirror maze where you have to bonk into walls to escape.
+                                I spent a lot of effort trying to find how to get the reflections right and I eventually
+                                discovered that ray tracing is perfect for this use case. I also use my original idea of
+                                a
+                                reflection probe that sticks to the wall you look at as a fallback.
+                                The graphical and computational complexity of this project made it really fun to make
+                                since
+                                I’ve never had a good chance to work on such advanced stuff before.
+                                This project took over a year to make with multiple classes dedicated to it.
+                                Due to the limited number of objects in the scene, I put a lot of effort into a high
+                                quality
+                                player character since you will see it throughout the game.
+                            </p>
                             <br>
-                        </div>
-                        <p>Here is a presentation covering it as well</p>
-                        <div class="ratio ratio-16x9">
-                            <iframe
-                                src="https://drive.google.com/file/d/1N3pYD3jeG8KfporGSOA70tCx1HSh8-3A/preview"
-                                allow="autoplay"></iframe>
-                        </div>
 
-                        <p>Some of the Skills utilized:</p>
-                        <ul>
-                            <li>Ray tracing</li>
-                            <li>Unity 3D HDRP</li>
-                            <li>Reflection probes</li>
-                            <li>Screen space reflections</li>
-                            <li>C# scripting</li>
-                            <li>VFX and Shader Graph</li>
-                            <li>Music and Sound design</li>
-                            <li>Smooth player movement</li>
-                            <li>FSR 2.1 upscaling</li>
-                            <li>Maze generation algorithm</li>
-                            <li>Maya and Blender</li>
-                            <li>Adobe Photoshop 2D art</li>
-                            <li>Adobe Substance Painter texturing</li>
-                            <li>Adobe After Effects Animation for the intro</li>
-                        </ul>
+                            <h5>Here is a video of the game</h5>
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/YHBeeCsNs5I?si=OUe1QcwmMTVO0vA3"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <br>
+                            </div>
+                            <br>
 
+                            <h5>Here is a presentation covering it as well</h5>
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://drive.google.com/file/d/1N3pYD3jeG8KfporGSOA70tCx1HSh8-3A/preview"
+                                    allow="autoplay"></iframe>
+                            </div>
+                            <br>
+
+                            <h5>Some of the Skills utilized:</h5>
+                            <ul>
+                                <li>Ray tracing</li>
+                                <li>Unity 3D HDRP</li>
+                                <li>Reflection probes</li>
+                                <li>Screen space reflections</li>
+                                <li>C# scripting</li>
+                                <li>VFX and Shader Graph</li>
+                                <li>Music and Sound design</li>
+                                <li>Smooth player movement</li>
+                                <li>FSR 2.1 upscaling</li>
+                                <li>Maze generation algorithm</li>
+                                <li>Maya and Blender</li>
+                                <li>Adobe Photoshop 2D art</li>
+                                <li>Adobe Substance Painter texturing</li>
+                                <li>Adobe After Effects Animation for the intro</li>
+                            </ul>
+                        </div>
                     </div>
 
-
                     <div class="col-sm-6">
-                        <h3>My First Game (Surf or Turf?)</h3>
-                        <hr>
-                        <p>While it's not my greatest game nor the funnest, I am still proud of the first game I
-                            made
-                            during my first year in GIMM.
-                            Through this game I learned how to work with Unity, specifically in 2D. I also learned a
-                            lot
-                            about art making some of the assets.
-                            The game originated from the adorable goat crab hybrid creature I made for another class
-                            and
-                            decided to reuse it since I was really proud of it.
-                            Since I wanted complex animation and interaction with the world, I had to split the
-                            character into separate game objects with their own colliders.
-                        </p>
-                        <p>Here is a video of the game</p>
-                        <div class="ratio ratio-16x9">
-                            <iframe
-                                src="https://www.youtube.com/embed/serTSzVG6CQ?si=QxCEoL_K8qB36Rok"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                            </iframe>
+                        <div class="extra-margin">
+                            <h3>My First Game (Surf or Turf?)</h3>
+                            <hr>
+                            <p>While it's not my greatest game nor the funnest, I am still proud of the first game I
+                                made
+                                during my first year in GIMM.
+                                Through this game I learned how to work with Unity, specifically in 2D. I also learned a
+                                lot
+                                about art making some of the assets.
+                                The game originated from the adorable goat crab hybrid creature I made for another class
+                                and
+                                decided to reuse it since I was really proud of it.
+                                Since I wanted complex animation and interaction with the world, I had to split the
+                                character into separate game objects with their own colliders.
+                            </p>
+                            <br>
+                            <h5>Here is a video of the game</h5>
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/serTSzVG6CQ?si=QxCEoL_K8qB36Rok"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <br>
+                            <h5>Here is a trailer I made for it</h5>
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/3gsEK7cMt74?si=cLZsvB1BaIlOVEEv"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <br>
+                            <br>
+                            <h5>Some of the Skills learned:</h5>
+                            <ul>
+                                <li>Unity 2D</li>
+                                <li>Photoshop</li>
+                                <li>C# scripting</li>
+                                <li>Polygon colliders</li>
+                                <li>Unity animation</li>
+                                <li>Unity physics</li>
+                                <li>Unity object detection</li>
+                                <li>Multi object player characters</li>
+                            </ul>
                         </div>
-                        <p>Here is a trailer I made for it</p>
-                        <div class="ratio ratio-16x9">
-                            <iframe
-                                src="https://www.youtube.com/embed/3gsEK7cMt74?si=cLZsvB1BaIlOVEEv"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-
-                        <br>
-                        <p>Some of the Skills learned:</p>
-                        <ul>
-                            <li>Unity 2D</li>
-                            <li>Photoshop</li>
-                            <li>C# scripting</li>
-                            <li>Polygon colliders</li>
-                            <li>Unity animation</li>
-                            <li>Unity physics</li>
-                            <li>Unity object detection</li>
-                            <li>Multi object player characters</li>
-                        </ul>
                     </div>
                 </div>
                 <br>
             </div>
-            <div class="col-md-1"></div>
+            <!-- <div class="col-md-1"></div> -->
         </div>
     </div>
 

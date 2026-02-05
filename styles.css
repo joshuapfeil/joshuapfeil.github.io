@@ -157,6 +157,10 @@ footer {
 
 }
 
+a:hover {
+    color:rgb(116, 167, 167);
+}
+
 .contrasted-link {
     color: #a6dde4;
     text-decoration: none;

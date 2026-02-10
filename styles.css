@@ -15,12 +15,8 @@ body {
     /* background-image: linear-gradient(to right, #d2c1c1, #333, #d2c1c1); */
    
     letter-spacing: 1pt;
-    background: radial-gradient(circle at center, black 0%, #8f3d3d 100%);
-    background-attachment: fixed;
-    /* This creates the parallax effect */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* Viewport-locked radial gradient */
+    background: radial-gradient(circle at center, black 0%, #8f3d3d 100%) fixed center/cover no-repeat;
 
 
 }
@@ -112,6 +108,10 @@ footer {
     color: #d2c1c1;
     background-color: #7a4343;
     /* font-weight: bold; */
+}
+.img-fluid {
+    position: relative; /* required for z-index to work */
+    z-index: 999;
 }
 
 .art:hover {
@@ -206,7 +206,4 @@ h1 {
     font-weight: bolder;
     font-size: 36pt;
 
-}
-#alpaca{
-    width:2%;
 }

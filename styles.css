@@ -182,7 +182,7 @@ a:hover {
     padding: 10pt;
     margin: 10pt;
     color: rgb(116, 167, 167);
-    font-family: Papyrus,  Copperplate, fantasy;
+    font-family: Papyrus,  Copperplate, fantasy; /* TODO: add a custom font later*/
     font-weight: bold;
 }
 
